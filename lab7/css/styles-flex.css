@@ -1,0 +1,152 @@
+body {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  display: block;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.page-header,
+.page-footer {
+  background-color: rgb(127, 224, 244);
+  padding: 3% 0;
+}
+.right-part {
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.left-sidebar {
+  background-color: rgb(127, 235, 178);
+  width: 30%;
+}
+.top {
+  height: 80%;
+  width: auto;
+}
+.bottom {
+  background-color: aliceblue;
+  padding: 2% 0;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-main {
+  display: flex;
+}
+.left-main-content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.page-footer h3,
+.page-header h1 {
+  margin-right: 5%;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: end;
+}
+.right-sidebar {
+  width: 30%;
+  background-color: rgb(127, 235, 178);
+}
+aside h2 {
+  color: rgb(16, 94, 58);
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+aside ul {
+  color: rgb(16, 94, 58);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+aside ul a {
+  color: rgb(16, 94, 58);
+  text-decoration: none;
+  cursor: pointer;
+}
+.right-sidebar p {
+  color: rgb(16, 94, 58);
+  font-size: 14px;
+  margin: 30px 10px auto;
+}
+.bottom h2 {
+  color: rgb(27, 8, 110);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left-sidebar {
+    width: 100%;
+  }
+  .left-sidebar ul li {
+    width: 130px;
+  }
+  .left-sidebar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  .page-main {
+    flex-direction: column;
+  }
+  .left-main-content {
+    width: 100%;
+  }
+  .right-sidebar {
+    width: 100%;
+  }
+  aside ul {
+    color: rgb(16, 94, 58);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .right-sidebar p {
+    color: rgb(16, 94, 58);
+    font-size: 12px;
+    margin: 15px 10px 10px;
+  }
+  aside h2 {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles-grid.css" />
+    <title>Page-one-grid</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>It`s Ukraine!</h1>
+    </header>
+    <aside class="left">
+      <h2>Places in Kyiv</h2>
+
+      <ul>
+        <li><a href="index.html">Maidan Nezalezhnosti</a></li>
+        <li><a href="#">Khreshchatyk</a></li>
+        <li><a href="#">St Andrew's Church</a></li>
+
+      </ul>
+    </aside>
+    <main class="page-main">
+      <aside class="right">
+        <p>
+          Maidan Nezalezhnosti (literally "Independence Square") is the central
+          square of Kyiv, the capital city of Ukraine. One of the city's main
+          squares, it is located on Khreshchatyk Street in the Shevchenko Raion.
+          The square has been known under many different names, but often it is
+          called by people simply Maidan ("square"). The square contains the
+          iconic Independence Monument.
+        </p>
+
+        <div class="table-container">
+          <table class="data-table table" style="display: none">
+            <thead>
+            <tr>
+              <th>LocalStorage Data</th>
+              <th>Server Data</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td class="local-storage-data"></td>
+              <td class="server-data"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+      <div class="top">
+        <img
+          src="./images/maidan.jpg"
+          alt="Maidan Nezalezhnosti"
+          class="picture"
+          usemap="#karta"
+        />
+        <div class="work" id="work">
+          <div class="controls">
+            <button class="btn" id="startButton" style="display: none">
+              Start
+            </button>
+            <button class="btn" id="stopButton" style="display: none">
+              Stop
+            </button>
+            <button class="btn" id="reloadButton" style="display: none">
+              Reload
+            </button>
+            <button class="btn" id="closeButton" style="display: none">
+              Close
+            </button>
+
+            <div class="message-container"></div>
+
+          </div>
+          <div class="anim" id="animationContainer">
+<!--            <div class="ball"></div>-->
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="bottom">
+        <button id="playButton" class="btn">Play</button>
+        <button class="send-localstorage-data btn">
+          Send local storage data
+        </button>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <h3>Glory to Ukraine!</h3>
+    </footer>
+    <script src="./js/main3.js"></script>
+  </body>
+</html>

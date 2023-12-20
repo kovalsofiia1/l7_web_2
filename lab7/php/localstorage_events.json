@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "type": "Start of the game",
+        "data": [],
+        "localTimestamp": "2023-12-20T15:48:03.789Z"
+    },
+    {
+        "id": 2,
+        "type": "Animation started",
+        "data": {
+            "dx": -8.374386159890472,
+            "dy": 9.084129299918764
+        },
+        "localTimestamp": "2023-12-20T15:48:05.264Z"
+    },
+    {
+        "id": 3,
+        "type": "Hitting a vertical wall",
+        "data": {
+            "dx": 8.374386159890472,
+            "dy": -9.084129299918764
+        },
+        "localTimestamp": "2023-12-20T15:48:05.553Z"
+    },
+    {
+        "id": 4,
+        "type": "Hitting a vertical wall",
+        "data": {
+            "dx": -8.374386159890472,
+            "dy": -9.084129299918764
+        },
+        "localTimestamp": "2023-12-20T15:48:06.420Z"
+    },
+    {
+        "id": 5,
+        "type": "Hitting the bottom wall",
+        "data": {
+            "dx": -8.374386159890472,
+            "dy": -9.084129299918764
+        },
+        "localTimestamp": "2023-12-20T15:48:07.286Z"
+    },
+    {
+        "id": 6,
+        "type": "Animation stopped",
+        "data": {
+            "dx": -8.374386159890472,
+            "dy": -9.084129299918764
+        },
+        "localTimestamp": "2023-12-20T15:48:07.287Z"
+    }
+]
